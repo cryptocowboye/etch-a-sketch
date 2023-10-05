@@ -15,3 +15,11 @@ for (i = 1; i < 17; i++) {
     }
     
 }
+
+const columns = [...document.querySelectorAll(".column")];
+
+columns.forEach((column) => {
+    column.addEventListener("mouseover", (e) => {
+        e.target.style.backgroundColor = "blue"
+    })
+})
