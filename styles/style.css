@@ -8,6 +8,20 @@ html, body {
     justify-content: center;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid-generator {
+    height: 2rem;
+    width: 10rem;
+    margin-bottom: 1rem;
+}
+
 .canvas {
     height: 20rem;
     width: auto;
